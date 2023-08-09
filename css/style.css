@@ -1,0 +1,215 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  background-image: url(./../img/fondo.jpg);
+  background-position: center;
+}
+
+p {
+  margin: unset;
+  padding: unset;
+}
+
+div.main-page {
+  width: 1100px;
+  background-color: #fff;
+}
+
+/*  */
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container div.resume,
+.container div.skills {
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container div.resume {
+  padding-right: 40px;
+  padding-left: 80px;
+}
+.container div.skills {
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 50%;
+  background-color: red;
+  color: #fff;
+}
+
+section.header {
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+section.header h1 {
+  font-size: 62px;
+  margin: unset;
+  letter-spacing: 8px;
+  color: #404040;
+  line-height: 70px;
+}
+section.header h2 {
+  letter-spacing: 8px;
+  color: rgb(0, 149, 255);
+}
+
+.list-experience {
+  margin-bottom: 30px;
+}
+.list-experience header {
+  position: relative;
+  display: flex;
+}
+.list-experience header h1 {
+  color: #404040;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding: unset;
+  margin: unset;
+}
+.list-experience header:before {
+  content: " ";
+  background-color: #404040;
+  background-image: url(./../img/profile.png);
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-position: center;
+  background-size: 12px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.list-experience .item-card:last-child .bullet-item {
+  border-left: unset;
+}
+
+section.item-card {
+  display: flex;
+  margin-left: 20px;
+}
+section.item-card div:first-child {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+section.item-card div:first-child .bullet-info {
+  width: 150px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+section.item-card div:first-child span.position {
+  color: #404040;
+  font-size: 18px;
+  font-weight: bold;
+}
+section.item-card div:first-child span.time {
+  color: gray;
+}
+section.item-card div:last-child {
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+section.item-card div:last-child .bullet-item {
+  border-left: unset;
+}
+section.item-card div:last-child span.title {
+  color: #404040;
+  font-size: 18px;
+}
+section.item-card div:last-child p {
+  text-align: justify;
+  color: gray;
+  font-size: 14px;
+}
+
+div.bullet-item {
+  border-left: 1px solid rgb(0, 149, 255);
+  position: relative;
+  display: flex;
+}
+div.bullet-item:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: -5.5px;
+  top: 0px;
+  border: 1.9px solid rgb(0, 149, 255);
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+div.contact-info {
+  color: #b6dde8;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+div.contact-info div.item {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin: 5px;
+  display: flex;
+}
+div.contact-info div.item :first-child {
+  margin-right: 5px;
+}
+
+div.detail_header {
+  color: #e5e5e5;
+}
+div.detail_header div.body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+div.detail_header div.body div > div.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+  background-image: url("./../img/user-regular.svg");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e5e5e5;
+}
+div.detail_header div.body div.title {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+div.container-skills span.title {
+  color: #b6dde8;
+  text-transform: uppercase;
+}
+
+ul.list-skills {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+ul.list-skills li {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "company": "Simplified Technologies",
+        "period": "2014 - 2017",
+        "title": "JR Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni consectetur quasi doloribus quidem ullam voluptate quis sapiente, iusto numquam ad aperiam dolores!d"
+    },
+    {
+        "id": 1,
+        "title": "JR Developer",
+        "period": "2017 - 2017",
+        "company": "Lafise",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "title": "Web Support",
+        "period": "2017 - 2019",
+        "company": "Sun Pyramid Health",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "title": "Web Developer",
+        "period": "2019 - 2022",
+        "company": "Accedo Technologies",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "title": "Sofware Enginner",
+        "period": "2022 - 2023",
+        "company": "Nectar Technologies",
+        "description": ""
+    }
+]
